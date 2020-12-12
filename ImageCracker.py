@@ -12,7 +12,7 @@ def main(argv):
 			wordlist = arg
 
 	if imagefile == '' or wordlist == '':
-		print('Usage: imagecracker.py -f <file> -w <wordlist>')
+		print('Usage: ImageCracker.py -f <file> -w <wordlist>')
 		sys.exit()
 
 	try:
